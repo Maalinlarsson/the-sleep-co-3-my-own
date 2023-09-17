@@ -113,6 +113,8 @@ a:hover {
 .center                 { text-align: center;                }
 .right                  { text-align: right;                 }
 
+.uppercase              {text-transform: uppercase;          }
+
 .font-weight-light      { font-weight: 200;                  }
 .font-weight-normal     { font-weight: normal;               }
 .font-weight-extra-bold { font-weight: 800;                  }
