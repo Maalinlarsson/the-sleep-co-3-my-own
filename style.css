@@ -202,6 +202,11 @@ footer a:hover {
     background-position: 50% 57%;
 }
 
+/*---------------- Video styles ----------------*/
+.video { 
+    max-width: 20%; 
+}
+
 /*---------------- Icons grid styles ----------------*/
 .fa-solid {
     display: block;
