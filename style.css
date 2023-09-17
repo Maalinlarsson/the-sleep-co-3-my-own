@@ -173,8 +173,15 @@ header a:hover {
 }
 
 footer a {
-    border: none;
+    margin: 0.5rem;
+    font-size: 2rem; 
 }
+
+footer a:hover {
+    color: #406F8E;
+}
+
+.copyright { color: #406F8E; }
 
 /*---------------- Background images ----------------*/
 .bg-image {
@@ -202,4 +209,6 @@ footer a {
     margin-bottom: 2rem;
     font-size: 3rem;
 }
+
+/*---------------- Media query ----------------*/
 
