@@ -203,6 +203,20 @@ footer a:hover {
     background-position: 50% 57%;
 }
 
+.bg-bear { 
+    background-image: url('/images/sleep-co-8.jpg');
+    background-position: 50% 100%; 
+}
+
+.bg-sheets { background-image: url('/images/sleep-co-6.jpg'); }
+
+.bg-cat { background-image: url('/images/sleep-co-5.jpg'); }
+
+.bg-bigbed { 
+    background-image: url('/images/sleep-co-7.jpg'); 
+    background-position: 50% 60%; 
+}
+
 /* Aspect ratio */
 .portrait-tall  { padding-bottom: 175%;              }
 .portrait       { padding-bottom: 125%;              }
