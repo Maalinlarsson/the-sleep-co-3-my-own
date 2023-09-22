@@ -252,6 +252,53 @@ footer a:hover {
     font-size: 3rem;
 }
 
+/*---------------- Contact form styles ----------------*/
+form input, 
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid #FFBE00; 
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #FFBE00; 
+}
+
+textarea {
+  min-height: 2rem;
+}
+
+form label {
+  margin-top: 1rem;
+  display: block;
+  color: #FFBE00;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+form button {
+  background-color: #FFBE00; 
+  color: white;
+  border: 2px solid #FFBE00;
+  padding: 0.5rem 2rem;
+  letter-spacing: 0.05em;
+  margin: 0.5rem 0;
+  display: block;
+  font-weight: bold;
+}
+
+form button:hover {
+    background-color: white;
+    color: #FFBE00;
+    border: 2px solid #FFBE00;
+}
+
 /*---------------- Media query ----------------*/
 
 /* SM  -   max-width in pixels approximately 768px */
