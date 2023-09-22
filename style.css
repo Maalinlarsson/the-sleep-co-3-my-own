@@ -102,7 +102,7 @@ a:hover {
 .text-dark              { color: #192B37;                  }
 
 .text-sm                { font-size: 1.5rem;                 }
-.md-text                { font-size: 2rem;                   }
+.text-md                { font-size: 2rem;                   }
 .text-lg                { font-size: 4.5rem;                 }
 .text-xl                { font-size: 6rem;                   }
 .text-xxl               { font-size: 8.5rem;                 }
