@@ -94,10 +94,12 @@ a:hover {
 .bg-dark                { background-color:#192B37;        }
 .bg-rust                { background-color:#c29880;        }
 .bg-green               { background-color:#9b9b81;        }
+.bg-featured            { background-color:#FFBE00;        }
 
 .text-light             { color: white;                    }
 .text-white             { color: white;                    }
 .text-featured          { color: #FFBE00;                  }
+.text-dark              { color: #192B37;                  }
 
 .text-sm                { font-size: 1.5rem;                 }
 .md-text                { font-size: 2rem;                   }
