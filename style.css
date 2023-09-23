@@ -123,10 +123,13 @@ a:hover {
 .line-height            { line-height: 1.1;                  }
 
 /*---------------- Typography styles ----------------*/
+h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
 h2 {
     font-size: 2.5rem;
-    line-height: 1.1;
-    margin-bottom: 1rem;
 }
 
 h3 { line-height: 1; }
@@ -238,7 +241,11 @@ footer a:hover {
 
 /*---------------- Card styles ----------------*/
 .card { 
-    border: 2px solid #FFBE00; 
+    border: 2px solid #FFBE00;  
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 /*---------------- Video styles ----------------*/
