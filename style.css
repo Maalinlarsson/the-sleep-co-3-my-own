@@ -266,6 +266,7 @@ footer a:hover {
 form input, 
 form textarea {
   width: 100%;
+  display: block;
   margin: 0.5rem 0;
   padding: 0.5rem;
   border: 2px solid #FFBE00; 
@@ -276,11 +277,7 @@ form textarea {
 form input:focus,
 form textarea:focus {
   outline: none;
-  border-color: #FFBE00; 
-}
-
-textarea {
-  min-height: 2rem;
+  border: 2px solid white; 
 }
 
 form label {
@@ -301,6 +298,7 @@ form button {
   margin: 0.5rem 0;
   display: block;
   font-weight: bold;
+  appearance: none;
 }
 
 form button:hover {
