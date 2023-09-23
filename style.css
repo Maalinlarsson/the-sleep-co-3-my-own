@@ -170,8 +170,10 @@ p:last-child {
 }
 
 header a:hover {
-    color: black;
+    color: #FFDF83;
 }
+
+.logo  { color: #FFBE00; }
 
 footer a {
     margin: 0.5rem;
@@ -251,6 +253,19 @@ footer a:hover {
     margin-bottom: 2rem;
     font-size: 3rem;
 }
+
+/*---------------- Button styles ----------------*/
+.button {
+    padding: 0.5rem 3rem;
+}
+
+.button:hover {
+    background-color: #E7EEF4;  
+    border: 2px solid #192B37;
+    color: #192B37;
+
+}
+
 
 /*---------------- Contact form styles ----------------*/
 form input, 
