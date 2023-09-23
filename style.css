@@ -279,15 +279,6 @@ form textarea:focus {
   border: 2px solid white; 
 }
 
-form label {
-  margin-top: 1rem;
-  display: block;
-  color: #FFBE00;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
 form button {
   background-color: #FFBE00; 
   color: white;
