@@ -229,7 +229,6 @@ footer a:hover {
 .bg-pos-t-l     { background-position: left top;     }
 .bg-pos-b-r     { background-position: right bottom; }
 
-
 /*---------------- Card styles ----------------*/
 .card { 
     border: 2px solid #FFBE00;  
@@ -252,7 +251,7 @@ footer a:hover {
     font-size: 3rem;
 }
 
-/*---------------- Button styles ----------------*/
+/*---------------- Button and form styles ----------------*/
 .button {
     padding: 0.5rem 5rem;
 }
@@ -264,7 +263,6 @@ footer a:hover {
 
 }
 
-/*---------------- Contact form styles ----------------*/
 form input, 
 form textarea {
   width: 100%;
