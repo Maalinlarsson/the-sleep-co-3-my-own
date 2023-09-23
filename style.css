@@ -297,12 +297,37 @@ form button:hover {
     border: 2px solid #FFBE00;
 }
 
+/*---------------- General CSS responsive styles (apply everywhere unless overridden) ----------------*/
+.show-xs,
+.show-sm,
+.show-md {
+    display: none;
+}
+
 /*---------------- Media query ----------------*/
+/* MD  -   max-width in pixels approximately 1024x */
+/* styles added here will apply at devices smaller than 1024px, or zoomed in equivalent */
+@media(max-width: 64em) {
+
+    .sm-md          { display: block;              }
+    .hide-md        { display: none;               }
+}
 
 /* SM  -   max-width in pixels approximately 768px */
+/* styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
 @media(max-width: 48em) {
 
     .flex-flip-sm   { flex-direction: column-reverse; }
     .sm-padding-b-0 { padding-bottom:0;               }
     .sm-h3          { font-size: 1.5rem;              }
+    .show-sm        { display: block;                 }
+    .hide-sm        { display: none;                  }
+}
+
+/* XS  -   max-width in pixels approximately 576px */
+/* styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
+@media(max-width: 36em) {
+    
+    .show-xs        { display: block;                 }
+    .hide-xs        { display: none;                  }
 }
