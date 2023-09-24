@@ -309,25 +309,75 @@ form button:hover {
 /* styles added here will apply at devices smaller than 1024px, or zoomed in equivalent */
 @media(max-width: 64em) {
 
-    .sm-md          { display: block;              }
+    body { border: 5px solid green; padding: 0.5rem;}
+
+    .show-md        { display: block;              }
     .hide-md        { display: none;               }
+
+    .md-padding-b-0 { padding-bottom: 0;           }
+
+    .md-tall-70     { min-height: 70vh;            }
 }
 
 /* SM  -   max-width in pixels approximately 768px */
 /* styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
 @media(max-width: 48em) {
 
-    .flex-flip-sm   { flex-direction: column-reverse; }
-    .sm-padding-b-0 { padding-bottom:0;               }
-    .sm-h3          { font-size: 1.5rem;              }
-    .show-sm        { display: block;                 }
-    .hide-sm        { display: none;                  }
+    body { border: 5px solid red; padding: 0.5rem;}
+
+    .flex-flip-sm     { flex-direction: column-reverse; }
+
+    .sm-h3            { font-size: 1.5rem;              }
+    .show-sm          { display: block;                 }
+    .hide-sm          { display: none;                  }
+
+    .sm-center        { text-align: center;             }
+    .sm-left          { text-align: left;               }
+    .sm-right         { text-align: right;              }
+
+    .sm-padded        { padding: 5%;                    }
+    .sm-padded-1      { padding: 1rem;                  }
+    .sm-padded-05     { padding: 0.5rem;                }
+
+    .sm-padded-t-0    { padding-top: 0;                 }
+    .sm-padded-b-0    { padding-bottom: 0;              }
+    .sm-padded-l-0    { padding-left: 0;                }
+    .sm-padded-r-0    { padding-right: 0;               }
+
+    .sm-margin-b-0    { margin-bottom: 0;               }
+    .sm-margin-b-1    { margin-bottom: 1rem;            }
+
+    .sm-tall-40       { min-height: 40vh;               }
+
+    h2                { font-size: 2rem;                }
+    .logo h2          { font-size:2rem;                 }
+    .header-banner h3 { font-size: 8vh;                 }
+
+    .text-lg          { font-size: 3.5rem;              }
+    .text-md          { font-size: 1.8rem;              }
 }
 
 /* XS  -   max-width in pixels approximately 576px */
 /* styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 @media(max-width: 36em) {
+
+    body { border: 5px solid purple; padding: 0.5rem;}
     
-    .show-xs        { display: block;                 }
-    .hide-xs        { display: none;                  }
+    .show-xs          { display: block;               }
+    .hide-xs          { display: none;                }
+
+    .header-banner h3 { font-size: 4vh;               }
+    .header-banner h1 { font-size: 1rem;              }
+
+    .navigation a     { font-size: 0.8rem;            }
+
+    .text-lg          { font-size: 2.5rem;            }
+    .text-md          { font-size: 1.5rem;            }
+
+    .xs-tall-40       { min-height: 40vh;             }
+
+    .xs-bg-pillow     { background-position: 50% 64%; }
 }
+
+
+
