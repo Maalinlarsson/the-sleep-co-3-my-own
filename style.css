@@ -388,6 +388,8 @@ form button:hover {
     .xs-tall-40       { min-height: 40vh;             }
 
     .xs-bg-pillow     { background-position: 50% 64%; }
+
+    .button           { padding: 0.5rem 3rem;         }
 }
 
 
