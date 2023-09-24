@@ -304,8 +304,6 @@ form button:hover {
 /* styles added here will apply at devices smaller than 1024px, or zoomed in equivalent */
 @media(max-width: 64em) {
 
-    body { border: 5px solid green; padding: 0.5rem;}
-
     .show-md        { display: block;              }
     .hide-md        { display: none;               }
 
@@ -324,8 +322,6 @@ form button:hover {
 /* SM  -   max-width in pixels approximately 768px */
 /* styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
 @media(max-width: 48em) {
-
-    body { border: 5px solid red; padding: 0.5rem;}
 
     .flex-flip-sm     { flex-direction: column-reverse; }
 
@@ -370,8 +366,6 @@ form button:hover {
 /* XS  -   max-width in pixels approximately 576px */
 /* styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 @media(max-width: 36em) {
-
-    body { border: 5px solid purple; padding: 0.5rem;}
     
     .show-xs          { display: block;               }
     .hide-xs          { display: none;                }
