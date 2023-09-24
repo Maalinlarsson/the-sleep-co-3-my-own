@@ -238,11 +238,6 @@ footer a:hover {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
-/*---------------- Video styles ----------------*/
-.video { 
-    max-width: 20%; 
-}
-
 /*---------------- Font awesome icons styles ----------------*/
 .fa-solid {
     display: block;
@@ -317,6 +312,10 @@ form button:hover {
     .md-padding-b-0 { padding-bottom: 0;           }
 
     .md-tall-70     { min-height: 70vh;            }
+
+    .md-h2          { font-size: 1.8rem;           }
+
+    [class*="col-"] { padding: 0;                  }
 }
 
 /* SM  -   max-width in pixels approximately 768px */
@@ -327,7 +326,7 @@ form button:hover {
 
     .flex-flip-sm     { flex-direction: column-reverse; }
 
-    .sm-h3            { font-size: 1.5rem;              }
+    .sm-h2            { font-size: 1.5rem;              }
     .show-sm          { display: block;                 }
     .hide-sm          { display: none;                  }
 
@@ -338,6 +337,8 @@ form button:hover {
     .sm-padded        { padding: 5%;                    }
     .sm-padded-1      { padding: 1rem;                  }
     .sm-padded-05     { padding: 0.5rem;                }
+
+    .sm-padded-t-1    { padding-top: 1rem;              }
 
     .sm-padded-t-0    { padding-top: 0;                 }
     .sm-padded-b-0    { padding-bottom: 0;              }
@@ -350,11 +351,13 @@ form button:hover {
     .sm-tall-40       { min-height: 40vh;               }
 
     h2                { font-size: 2rem;                }
-    .logo h2          { font-size:2rem;                 }
+    .logo h2          { font-size: 2rem;                }
     .header-banner h3 { font-size: 8vh;                 }
 
     .text-lg          { font-size: 3.5rem;              }
     .text-md          { font-size: 1.8rem;              }
+
+    .fa-solid         { margin-top: 2rem;               }
 }
 
 /* XS  -   max-width in pixels approximately 576px */
@@ -366,8 +369,9 @@ form button:hover {
     .show-xs          { display: block;               }
     .hide-xs          { display: none;                }
 
-    .header-banner h3 { font-size: 4vh;               }
-    .header-banner h1 { font-size: 1rem;              }
+    .xs-h2            { font-size: 1.7rem;            }
+
+    .header-banner h3 { font-size: 6vh;               }
 
     .navigation a     { font-size: 0.8rem;            }
 
