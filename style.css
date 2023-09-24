@@ -315,7 +315,10 @@ form button:hover {
 
     .md-h2          { font-size: 1.8rem;           }
 
-    [class*="col-"] { padding: 0;                  }
+   .video-container[class*="col-"] {
+    padding: 0;                  
+}
+
 }
 
 /* SM  -   max-width in pixels approximately 768px */
@@ -358,6 +361,10 @@ form button:hover {
     .text-md          { font-size: 1.8rem;              }
 
     .fa-solid         { margin-top: 2rem;               }
+    .portrait         { padding-bottom: 50%;            }
+
+    .sm-bg-bear       { background-position: 50% 67%;   }
+    .sm-bg-pug        { background-position: 50% 34%;   }
 }
 
 /* XS  -   max-width in pixels approximately 576px */
@@ -369,7 +376,7 @@ form button:hover {
     .show-xs          { display: block;               }
     .hide-xs          { display: none;                }
 
-    .xs-h2            { font-size: 1.7rem;            }
+    h2                { font-size: 1.7rem;            }
 
     .header-banner h3 { font-size: 6vh;               }
 
